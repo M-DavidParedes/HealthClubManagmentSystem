@@ -4,9 +4,9 @@ def get_connection():
     try:
         conn = psycopg2.connect(
             host="localhost",
-            database="comp3005FinalProject",    
+            database="final_project",    
             user="postgres",          
-            password="password", 
+            password="postgres", 
             port="5432"               
         )
         print("Database connection successful!")
